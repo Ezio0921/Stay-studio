@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stay Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #00ffe0, #007f6e);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #00ffe0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffe0;
+      margin-bottom: 10px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00ffe0;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: #111;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Stay Studio</h1>
+    <p>Immersive games that stay with you.</p>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>We are working on exciting new experiences. Stay tuned for our first title, blending storytelling, exploration, and survival.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Stay Studio is an independent game development team passionate about creating emotional and immersive experiences. Every game we make is crafted with care, aiming to leave a lasting impact.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Got a question or just want to say hi? Reach out to us!</p>
+    <a href="mailto:contact@staystudio.com" class="button">Email Us</a>
+  </section>
+
+  <footer>
+    © 2025 Stay Studio. All rights reserved.
+  </footer>
+
+</body>
+</html>
